@@ -1,0 +1,131 @@
+
+.container-fluid{
+     background: -webkit-linear-gradient(to left, #dad299, #b0dab9); /* Chrome 10-25, Safari 5.1-6 */
+}
+body{
+    background: #d44169;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #d44169, #D3959B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #d44169, #D3959B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1{
+    font-family: 'Poiret One', cursive;
+}
+
+.jumbotron {
+   background: rgba(200, 54, 54, 0); 
+    color:white;
+    font-size: 2px;
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 5%;
+}
+
+.navbar-default {
+    background: rgba(200, 54, 54, 0);
+    border: 0;
+}
+
+
+.jumbPic{
+    padding-top: 30px;
+    padding-left: 15%;
+}
+.col-sm-6 {
+    width: 50%;
+}
+
+
+span{
+    text-decoration:inherit;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+}
+
+
+
+/*this is the Nofiy me button*/
+
+    
+#contact .gform_footer input.gform_button, .btn-meflat {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    padding: 10px 30px;
+    display: inline-block;
+    margin: 20px 0;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 400;
+    line-height: 28px;
+    height: 52px;
+    outline: 0;
+    position: relative;
+    background: #ee4976;
+    color: #fff;
+    box-shadow: none;
+    border-radius: 52px;
+    opacity: .8;
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+    font-size: 18px;
+}
+
+
+
+
+/* this is for email input*/
+#contact .gform_wrapper .gform_body input, #contact .gform_wrapper .gform_body textarea, .bl_form input, .bl_form textarea {
+    background: rgba(255, 255, 255, .1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
+    border: none;
+    color: #fff;
+    height: 44px;
+    max-height: 44px;
+    min-height: 44px;
+    width: 207px;
+    max-width: 207px;
+    min-width: 207px;
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-size: 16px;
+    outline: 0;
+    vertical-align: middle;
+}
+
+
+svg {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+
+
+input {
+    border: 1px solid #242c37;
+    border-radius: 999px;
+    background-color: transparent;
+    text-align: center;
+
+    &[type="email"],
+   {
+      background-repeat: no-repeat;
+      background-size: 1.5rem;
+      background-position: 1rem 50%;
+    }
+
+
+    &[type="email"] {
+      background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#242c37"><path d="M256.017 273.436l-205.17-170.029h410.904l-205.734 170.029zm-.034 55.462l-205.983-170.654v250.349h412v-249.94l-206.017 170.245z"/></svg>');
+    }
+    
+    
+}
+    
+    input[type="email"] {
+    font-size: 15px;
+}
